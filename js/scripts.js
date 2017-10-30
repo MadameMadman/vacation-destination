@@ -24,6 +24,12 @@ $(document).ready(function(){
     var q4 = $("input:radio[name=q2]:checked").val();
     var q5 = $("input:radio[name=q2]:checked").val();
     var q6 = $("input:radio[name=q2]:checked").val();
+    var q7 = $("input:radio[name=q1]:checked").val();
+    var q8 = $("input:radio[name=q2]:checked").val();
+    var q9 = $("input:radio[name=q2]:checked").val();
+    var q10 = $("input:radio[name=q2]:checked").val();
+    var q11 = $("input:radio[name=q2]:checked").val();
+    var q12 = $("input:radio[name=q2]:checked").val();
 
     questions(q1);
     questions(q2);
