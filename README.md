@@ -1,6 +1,6 @@
 # _VRNICO's VR Community Suggester_
 
-[To visit click here](https://www.Madamemadman.github.io/vaction-destination)
+[To visit click here](www.Madamemadman.github.io/vaction-destination)
 
 #### _JavaScript & jQuery Independent Project for Epicodus. A quiz in the form of a VR Community Suggester October 2017_
 
