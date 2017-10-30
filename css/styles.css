@@ -9,3 +9,12 @@ body {
 .result {
   display: none;
 }
+
+p {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.btn {
+  margin-bottom: 2em;
+}
