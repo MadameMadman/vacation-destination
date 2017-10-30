@@ -7,6 +7,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   </head>
   <body>
 
@@ -15,7 +16,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-3">
-              <img src="img/nicobanner.png" class="img-responsive">
+              <img src="img/nicobanner.png" class="img-responsive" alt="vrnico sitting pose">
             </div>
             <div class="col-md-9">
               <h1>VR_Nico's Community Suggester</h1>
@@ -24,8 +25,98 @@
         </div>
       </div>
       <form id="quiz">
+        <div class="q1">
+          <p></p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="vrc" checked>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="hf">
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="al">
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q1" value="rr">
+            </label>
+          </div>
+        </div>
+        <div class="q2">
+          <p></p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="hf">
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="vrc" checked>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="rr">
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="al">
+            </label>
+          </div>
+        </div>
       <button type="submit" class="btn btn-success">LET ME AT EM'!</button>
       </form>
+      <div class="result vrc well">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/vrchat.png" alt="VRCHAT" class="img-responsive">
+          </div>
+          <div class="col-md-9">
+            <h2>VRCHAT</h2>
+            <p>You got VRCHAT!</p>
+          </div>
+        </div>
+      </div>
+      <div class="result hf well">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/highfidelity.jpe" alt="highfidelity" class="img-responsive">
+          </div>
+          <div class="col-md-9">
+            <h2>VRCHAT</h2>
+            <p>You got VRCHAT!</p>
+          </div>
+        </div>
+      </div>
+      <div class="result al well">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/anyland.jpg" alt="anyland" class="img-responsive">
+          </div>
+          <div class="col-md-9">
+            <h2>ANYLAND</h2>
+            <p>You got VRCHAT!</p>
+          </div>
+        </div>
+      </div>
+      <div class="result rr well">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/recroom.jpg" alt="recroom" class="img-responsive">
+          </div>
+          <div class="col-md-9">
+            <h2>RECROOM</h2>
+            <p>You got VRCHAT!</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
