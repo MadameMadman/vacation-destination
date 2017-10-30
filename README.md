@@ -1,6 +1,6 @@
 # _VRNICO's VR Community Suggester_
 
-[To visit click here](www.Madamemadman.github.io/vaction-destination)
+[To visit click here](https://madamemadman.github.io/vacation-destination/)
 
 #### _JavaScript & jQuery Independent Project for Epicodus. A quiz in the form of a VR Community Suggester October 2017_
 
@@ -10,7 +10,7 @@
 
 _A 12 question quiz that provides the user with an educated suggestion of a VR Community to visit._
 
-## Setup/Installation Requirements
+## Setup/Installation Requirement
 
 * _git clone https://github.com/MadameMadman/vacation-destination.git_ _
 * _run index.htmls_
