@@ -20,16 +20,16 @@ $(document).ready(function(){
     event.preventDefault();
     var q1 = $("input:radio[name=q1]:checked").val();
     var q2 = $("input:radio[name=q2]:checked").val();
-    var q3 = $("input:radio[name=q2]:checked").val();
-    var q4 = $("input:radio[name=q2]:checked").val();
-    var q5 = $("input:radio[name=q2]:checked").val();
-    var q6 = $("input:radio[name=q2]:checked").val();
-    var q7 = $("input:radio[name=q1]:checked").val();
-    var q8 = $("input:radio[name=q2]:checked").val();
-    var q9 = $("input:radio[name=q2]:checked").val();
-    var q10 = $("input:radio[name=q2]:checked").val();
-    var q11 = $("input:radio[name=q2]:checked").val();
-    var q12 = $("input:radio[name=q2]:checked").val();
+    var q3 = $("input:radio[name=q3]:checked").val();
+    var q4 = $("input:radio[name=q4]:checked").val();
+    var q5 = $("input:radio[name=q5]:checked").val();
+    var q6 = $("input:radio[name=q6]:checked").val();
+    var q7 = $("input:radio[name=q7]:checked").val();
+    var q8 = $("input:radio[name=q8]:checked").val();
+    var q9 = $("input:radio[name=q9]:checked").val();
+    var q10 = $("input:radio[name=q10]:checked").val();
+    var q11 = $("input:radio[name=q11]:checked").val();
+    var q12 = $("input:radio[name=q12]:checked").val();
 
     questions(q1);
     questions(q2);
